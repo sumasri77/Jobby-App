@@ -1,0 +1,112 @@
+.nav-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #202020;
+}
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1110px;
+  padding: 15px 0px 15px 0px;
+}
+.nav-bar-mobile-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .nav-bar-mobile-container {
+    display: none;
+  }
+}
+.nav-bar-mobile-icons-container {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+.nav-bar-large-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1110px;
+}
+@media screen and (max-width: 767px) {
+  .nav-bar-large-container {
+    display: none;
+  }
+}
+.website-logo {
+  width: 90px;
+  margin-top: 12px;
+}
+@media screen and (min-width: 768px) {
+  .website-logo {
+    width: 125px;
+  }
+}
+.nav-item-mobile-link {
+  font-size: 24px;
+  color: #ffffff;
+  margin-right: 20px;
+}
+.logout-mobile-btn {
+  border: none;
+  background: transparent;
+  padding: 0px;
+  cursor: pointer;
+  outline: none;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .logout-mobile-btn {
+    display: none;
+  }
+}
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  list-style-type: none;
+  margin: 0px;
+}
+@media screen and (max-width: 767px) {
+  .nav-menu {
+    display: none;
+  }
+  .nav-content {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .logout-desktop-btn {
+    display: none;
+  }
+}
+.nav-menu-item {
+  font-family: 'Roboto';
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 10px;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+.logout-desktop-btn {
+  background-color: #4f46e5;
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  padding: 6px 40px;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+}
